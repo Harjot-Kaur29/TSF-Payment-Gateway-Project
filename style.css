@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(image3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.nav-container{
+   text-align:right;
+}
+.nav-container a{
+    text-decoration:none;
+    color:rgb(17, 13, 8);
+    font-size: 30px;
+    display: inline-block;
+    padding:10px;
+}
+.nav-container a:hover{
+    color:white;
+}
+.title{
+    float:left;
+    font-size:40px;
+    color:rgb(12, 12, 12);
+    padding:10px;
+    font-weight:bold;
+}
+.card-container{
+    
+border: 1px solid black;
+width: 450px;
+height: 350px;
+background-color:white;
+border-radius: 10px;
+box-shadow: 2px 2px 5px rgba(233, 230, 230, 0.3);
+margin-left:20px;
+margin-top:75px;
+padding:10px;
+text-align:center;
+}
+.card{
+    color:rgb(165, 218, 105);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:3px;
+    
+}
+
+#donate-button{
+    border-style: none;
+}
+.text-container {
+    margin:20px;
+    font-size:30px;
+    font-style:oblique;
+    color:rgb(18, 1, 7);
+}
+#donate-button{
+    padding:5px;
+    margin:10px;
+}
